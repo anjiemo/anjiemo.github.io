@@ -1,0 +1,23 @@
+# ===== JetBrains IDE(IntelliJ IDEA / Android Studio)=====
+# 整个 .idea 目录都是本地 / 机器相关的 IDE 状态（workspace.xml、misc.xml 等），
+# 不应入库，否则多开发者、多平台之间会频繁冲突。
+.idea/
+
+# 独立的 JetBrains 工程文件（可能出现在 .idea 之外）
+*.iml
+*.iws
+*.ipr
+
+# ===== 操作系统生成的杂项文件（多平台协作时的常见冲突源）=====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
